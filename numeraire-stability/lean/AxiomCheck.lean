@@ -1,0 +1,45 @@
+-- Prints the axioms each paper statement depends on: `lake env lean AxiomCheck.lean`.
+import NumeraireStability
+open NumeraireStability
+#print axioms reweight_isProbabilityMeasure
+#print axioms cancellation_general
+#print axioms cancellation_call
+#print axioms cancellation_first_moment
+#print axioms cancellation_moment
+#print axioms hasFiniteMoment_one_of_integrable
+#print axioms hasFiniteMoment_iff
+#print axioms reweight_lintegral_boundary
+#print axioms mean_tendsto
+#print axioms weak_stability
+#print axioms exact_two_way_boundary
+#print axioms sharp_cancellation
+#print axioms sharp_cancellation_of_no_boundary
+#print axioms boundary_free_iff_unifIntegrable
+#print axioms exTwoAtom_mean
+#print axioms reweight_exTwoAtom
+#print axioms exTwoAtom_moment
+#print axioms example_4_1
+#print axioms example_4_3
+#print axioms example_4_4
+#print axioms joint_continuity
+#print axioms image_compact
+#print axioms reweightAt_projective
+#print axioms mixture_formula
+#print axioms affine_on_slice
+#print axioms jointSetting_example
+#print axioms involution_moment
+#print axioms involution_stability
+#print axioms involution_w1
+#print axioms involution_second_moment_iff
+#print axioms involution_w2_iff
+#print axioms involution_two_atom
+#print axioms unifIntegrableOn_of_bounded
+#print axioms annuity_ratioTail
+#print axioms annuity_w1_continuity
+#print axioms annuity_calls_uniform
+#print axioms annuity_prices_uniform
+#print axioms annuity_second_moment
+#print axioms annuity_second_moment_stability
+#print axioms example_4_1_calls_second_moment
+#print axioms cash_settled
+#print axioms annuitySetting_example

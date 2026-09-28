@@ -1,0 +1,28 @@
+name: Lean
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: ${{ matrix.project }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # One entry per paper: the folder that holds its Lake project.
+        project:
+          - numeraire-stability/lean
+    steps:
+      - uses: actions/checkout@v5
+      - uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: ${{ matrix.project }}
+      - name: Check that every paper statement uses only the standard axioms
+        working-directory: ${{ matrix.project }}
+        run: ./check-axioms.sh

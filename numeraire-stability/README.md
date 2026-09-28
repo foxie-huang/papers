@@ -3,7 +3,9 @@
 Machine-checked proofs, in Lean 4 with Mathlib, of the results of
 
 > Shaosai Huang, *Stability of Change-of-Numéraire Reweighting: An Exact
-> Wasserstein Boundary* (2026), preprint.
+> Wasserstein Boundary* (2026).
+> [arXiv:2609.30329](https://arxiv.org/abs/2609.30329) ·
+> [SSRN 7383120](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7383120)
 
 The paper characterizes exactly when reweighting a law by a positive numéraire
 and pushing forward the payoff-to-numéraire ratio is stable in the

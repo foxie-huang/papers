@@ -7,7 +7,7 @@ a paper never forces an old formalization to upgrade.
 
 | Paper | Folder | Formalized | Lean / Mathlib |
 |---|---|---|---|
-| *Stability of Change-of-Numéraire Reweighting: An Exact Wasserstein Boundary* (2026) | [`numeraire-stability/`](numeraire-stability) | Every proposition, lemma, theorem and corollary, the examples of Section 4 and the conclusions of Section 6 (42 statements) | v4.34.0 / v4.34.0 |
+| *Stability of Change-of-Numéraire Reweighting: An Exact Wasserstein Boundary* (2026)<br>[arXiv](https://arxiv.org/abs/2609.30329) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7383120) | [`numeraire-stability/`](numeraire-stability) | Every proposition, lemma, theorem and corollary, the examples of Section 4 and the conclusions of Section 6 (42 statements) | v4.34.0 / v4.34.0 |
 
 ## Checking a formalization
 
